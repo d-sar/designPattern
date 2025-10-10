@@ -1,16 +1,12 @@
 package com.enset;
-// class impliment VGA et a une relation de composition avec hdmi
-public class HdmiVgaAdapter implements VGA{
-    private  Hdmi hdmi;
+
+public class HdmiVgaAdapterH  extends Tv implements VGA{
     @Override
     public void print(String message) {
         System.out.println("*************Adapter*************");
         byte[] bytes=message.getBytes();
-        hdmi.show(bytes);
+        super.show(bytes);
         System.out.println("************ / Adapter**************");
+    }
 
-    }
-    public void setHdmi (Hdmi hdmi) {
-        this.hdmi = hdmi;
-    }
 }
