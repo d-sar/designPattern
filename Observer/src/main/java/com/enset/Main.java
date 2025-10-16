@@ -14,6 +14,7 @@ public class Main {
         observable.subscribe(o2);
         observable.setState(60);
         observable.setState(40);
+        observable.unsubscribe(o2);
         observable.setState(80);
 
 
