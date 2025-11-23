@@ -66,9 +66,6 @@ public class BankAccount implements Cloneable {
                 ", status=" + status +
                 '}';
     }
-
-
-
     public static class AccountBuilder{
         private BankAccount bankAccount =  new BankAccount();
 

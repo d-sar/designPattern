@@ -1,0 +1,21 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class Component {
+  + Component(): 
+}
+class File {
+  + File(): 
+}
+class Folder {
+  + Folder(): 
+}
+class Main {
+  + Main(): 
+  + main(String[]): void
+}
+
+@enduml

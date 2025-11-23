@@ -3,7 +3,9 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class ObservableImpl implements Observable {
+
     private List<Observer> observers = new ArrayList<>();
+
     private int state;
 
 
