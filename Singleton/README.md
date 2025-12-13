@@ -1,6 +1,4 @@
-Voici un résumé clair des patterns **Singleton**, **Builder**, et **Prototype**, avec des exemples simples pour chacun :
 
----
 
 ### **1. Singleton**
 
